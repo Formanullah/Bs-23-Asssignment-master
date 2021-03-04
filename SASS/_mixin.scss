@@ -1,0 +1,22 @@
+@mixin display-title($font-size, $height) {
+    .display-title {
+        font-size: $font-size;
+        height: $height;
+    } 
+}
+
+@mixin ideopathic($font-size) {
+    .ideopathic{
+        font-size: $font-size;
+    }
+}
+@mixin icon($margin-left) {
+    .icon{
+        margin-left: $margin-left;  
+    }
+}
+@mixin title_p_3th-child($font-size) {
+    .title p:nth-child(3){
+        font-size: $font-size;
+    }
+}
